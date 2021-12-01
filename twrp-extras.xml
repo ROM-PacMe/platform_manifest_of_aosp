@@ -16,7 +16,7 @@
 
     <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
     <project path="bootable/recovery" name="bootable/recovery" remote="OrangeFox" revision="fox_11.0"/>
-    <project path="bootable/recovery/gui/theme" name="misc/theme" remote="OrangeFox"/>
+    <project path="bootable/recovery/gui/theme" name="misc/theme" remote="OrangeFox" revision ="master"/>
 
     <project path="build/make" name="rom-pacme/orange_build" remote="github" revision="11" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
